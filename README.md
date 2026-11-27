@@ -1,4 +1,4 @@
-🇷🇺 Русский
+Русский
 # MuteFake
 
 Лёгкий модераторский мод для FakeTime.
@@ -13,7 +13,7 @@
 - Настраиваемый конфиг.
 
 
-🇬🇧 English
+English
 # MuteFake
 
 A lightweight moderation mod for FakeTime.
