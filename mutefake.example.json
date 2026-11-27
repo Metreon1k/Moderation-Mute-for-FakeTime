@@ -1,0 +1,31 @@
+{
+  "muteCommand": "mute {player} {time} {reason}",
+  "defaultTime": "30m",
+  "defaultReason": "Оскорбления в чате",
+  "requireScreenshot": false,
+  "screenshot": {
+    "enabled": false,
+    "apiKey": "PASTE_API_KEY_HERE",
+    "uploadUrl": "",
+    "apiKeyLocation": "HEADER",
+    "apiKeyName": "Authorization",
+    "apiKeyPrefix": "Bearer ",
+    "fileFieldName": "image",
+    "responseUrlPath": "url",
+    "timeoutSeconds": 20
+  },
+  "durations": ["30m", "1h", "2h", "6h", "8h", "12h", "1d"],
+  "presets": [
+    {"rule":"3.1","reason":"Оскорбления в чате","time":"8h"},
+    {"rule":"3.2","reason":"Провокации в чате","time":"30m"},
+    {"rule":"3.3","reason":"Флуд в чате","time":"1h"},
+    {"rule":"3.4","reason":"Реклама и ссылки в чате","time":"1h"},
+    {"rule":"3.5","reason":"Обман игроков","time":"30m"},
+    {"rule":"3.6","reason":"Разжигание конфликтов","time":"1h"},
+    {"rule":"3.7","reason":"Оскорбление родных","time":"1h"},
+    {"rule":"3.7","reason":"Оскорбление родных","time":"6h"},
+    {"rule":"3.8","reason":"Токсичное поведение","time":"1h"},
+    {"rule":"3.9","reason":"Спам в чате","time":"30m"},
+    {"rule":"3.10","reason":"Неадекватное поведение","time":"2h"}
+  ]
+}

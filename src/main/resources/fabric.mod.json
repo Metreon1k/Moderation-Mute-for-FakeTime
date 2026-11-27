@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mutefake",
+  "version": "${version}",
+  "name": "MuteFake by Metreon1k",
+  "description": "Клик по сообщению в чате открывает меню выдачи мута.",
+  "authors": [
+    "Metreon1k"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.metreon1k.mutefake.MuteFakeClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mutefake.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": ">=1.21 <=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/mutefake/icon.png"
+}

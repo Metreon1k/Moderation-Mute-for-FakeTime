@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.metreon1k.mutefake.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatScreenMixin",
+    "ChatHudAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
