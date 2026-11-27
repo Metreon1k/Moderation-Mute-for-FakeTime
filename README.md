@@ -2,7 +2,8 @@
 
 Лёгкий модераторский мод для FakeTime.
 
-Выдавайте муты, выбирайте причины и сроки наказаний, сохраняйте скриншоты нарушений и отправляйте доказательства через FakeModeration API.
+1.21.4 Fabric
+Выдавайте муты, выбирайте причины и сроки наказаний, сохраняйте скриншоты нарушений и отправляйте доказательства через FakeModeration API. 
 
 ## Возможности
 - Быстрая выдача мутов.
@@ -16,6 +17,7 @@
 
 A lightweight moderation mod for FakeTime.
 
+1.21.4 Fabric
 Issue mutes, select punishment reasons and durations, save screenshots of violations, and upload evidence through the FakeModeration API.
 
 ## Features
